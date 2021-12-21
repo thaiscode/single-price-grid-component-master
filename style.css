@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 0.3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#first-card{
+    background: hsl(204, 43%, 93%);
+    padding: 1.5rem;
+    border-radius: 8px 8px 0 0;
+}
+
+#first-card h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#first-card p {
+    color: hsl(71, 73%, 54%);
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.8rem 0.5rem 0.8rem 0;
+}
+
+#first-card p:last-child {
+    color: hsl(218, 22%, 67%);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+#second-card {
+    color: hsl(204, 43%, 93%);
+    background: hsl(179, 62%, 43%);
+    padding: 1.5rem;
+}
+
+#second-card h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#second-card p:nth-child(2) {
+    color: hsl(204, 43%, 87%);
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+#second-card p strong {
+    color: hsl(204, 43%, 93%);
+    font-size: 2.3rem;
+}
+
+#second-card button {
+    color: hsl(204, 43%, 93%);
+    background: hsl(71, 73%, 54%);
+    border: none;
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.527);
+}
+
+#second-card button:hover {
+    background: hsl(204, 43%, 93%);
+    color: hsl(71, 73%, 54%);
+    transition: 0.2s;
+}
+
+#third-card {
+    color: hsl(204, 43%, 93%);
+    background: hsl(179, 61%, 52%);
+    padding: 1.2rem;
+    border-radius: 0 0 8px 8px;
+}
+
+#third-card h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+#third-card li {
+    color: hsl(204, 43%, 87%);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        max-width: 700px;
+    }
+        
+    #first-card{
+        padding: 3rem;
+    }
+    
+    #first-card h1 {
+        font-size: 1.5rem;
+    }
+    #first-card p {
+        font-size: 1.1rem;
+    }
+    
+    #first-card p:last-child {
+        font-size: 1rem;
+        padding: 0;
+        padding-right: 1.4rem;
+    }
+
+    #second-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #second-card {
+        width: 50%;
+        padding: 3rem;
+        border-radius: 0 0 0 8px;
+    }
+    
+    #second-card button {
+        width: 80%;
+    }
+
+    #third-card {
+        padding: 3rem;
+        width: 50%;
+        border-radius: 0 0 8px 0;
+    }
+} 
+
+@media screen and (min-width: 1440px) {
+    main {
+        max-width: 900px;
+    }
+
+    #first-card h1 {
+        font-size: 2rem;
+    }
+    #first-card p {
+        font-size: 1.75rem;
+        padding: 2rem 0.5rem 1.5rem 0;
+    }
+
+    #first-card p:last-child {
+        font-size: 1.5rem;
+        padding-right: 0;
+    }
+
+    #second-card h2 {
+        font-size: 1.8rem;
+    }
+    
+    #second-card p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    
+    #second-card p strong {
+        font-size: 3rem;
+    }
+
+    #second-card p:nth-child(3) {
+        font-size: 1.3rem;
+    }
+
+    #second-card button {
+        width: 87%;
+        height: 4rem;
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+
+    #third-card h3 {
+        font-size: 2rem;
+    }
+    
+    #third-card li {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    main {
+        max-width: 1000px;
+    }
+
+    #first-card h1 {
+        font-size: 3rem;
+    }
+    #first-card p {
+        font-size: 2rem;
+    }
+
+    #first-card p:last-child {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    #second-card h2 {
+        font-size: 2rem;
+    }
+    
+    #second-card p:nth-child(2) {
+        font-size: 1.7rem;
+        padding: 1.3rem 0;
+    }
+    
+    #second-card p strong {
+        font-size: 3.2rem;
+    }
+
+    #second-card p:nth-child(3) {
+        font-size: 1.5rem;
+    }
+
+    #second-card button {
+        width: 90%;
+        font-size: 1.4rem;
+        margin-top: 3.8rem;
+    }
+
+    #third-card h3 {
+        font-size: 2.2rem;
+    }
+    
+    #third-card li {
+        font-size: 1.5rem;
+    }
+}
