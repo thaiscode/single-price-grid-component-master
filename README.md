@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/single-price-grid-component-solution-with-html-css-and-flexbox-8fIu9Muoz
 - Live Site URL: https://thaiscode.github.io/single-price-grid-component-master/
 
 ## My process
